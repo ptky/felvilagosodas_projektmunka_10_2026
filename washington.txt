@@ -1,0 +1,19 @@
+George Washington
+Insta nev = George Washington
+Insta felhasznalo = george_washington
+Insta bio: Sziasztok, én vagyok az amerikai egyesült államok első elnöke!
+
+Profilkep: -
+
+Posztok: 
+📸 Kép: Hadsereg a csatatéren
+📝 Caption: „Nehéz tél volt, de nem adjuk fel. A szabadságért harcolunk!” 
+
+📸 Kép: Elnöki beiktatás
+📝 Caption: „Megtiszteltetés szolgálni az új nemzetet.” 
+
+📸 Kép: Mount Vernon birtok
+📝 Caption: „Otthon, ahol igazán önmagam lehetek.” 🐎🌾
+
+📸 Kép: Búcsúbeszéd
+📝 Caption: „Két ciklus elég. A demokrácia fontosabb, mint a hatalom.”
