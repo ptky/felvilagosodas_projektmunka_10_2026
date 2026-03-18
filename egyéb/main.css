@@ -1,7 +1,64 @@
-#left {
-    background-color: brown;
+body {
+    color: white;
+    background-color: black;
 }
 
-#right {
-    background-color: bisque;
+.poszt {
+    width: 350px;
+    height: 425px;
+    border: 1px solid white;
+}
+
+.cimsor {
+    display: inline-flex;
+    font-size: small;
+}
+
+.cimsor h2 {
+    margin-top: 12px;
+}
+
+.cimsor p {
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+.cimsor img {
+    border-radius: 70%;
+    max-width: 50px;
+}
+
+.poszt img {
+    width: 100%;
+}
+
+.btn-outline-danger{
+    border: none;
+}
+
+.megosztas {
+    padding-left: 12px;
+}
+
+.pipa {
+    margin-top: 19px;
+    margin-left: 3px;
+}
+
+.pipa_alul {
+    margin-top: 4px;
+    margin-left: 3px;
+    font-size: 0.75em;
+}
+
+.posztszoveg {
+    font-size: 0.95em;
+    margin-left: 5px;
+}
+
+.cimsor_alul {
+    padding: 5px;
+     margin-top: 0;
+     display: inline-flex;
+     font-size: small;
 }
