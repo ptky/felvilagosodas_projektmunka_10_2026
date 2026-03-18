@@ -19,17 +19,32 @@
 </head>
 <body>
     <main class="container">
-        <aside id="left">
-            <h1>left</h1>
+    <div class="row">
+        <aside id="left col-md-4">
+            <i class="insta_logo bi bi-instagram"></i>
             <!-- ebbe lesz a bal oldali menurendszer -->
         </aside>
-        <nav> <!-- ez a tetejen levo for you, following de itt mi a following helyett berakjuk a masik oldalt, hogy konnyebb megtalaljuk az oldalt --></nav>
-        <article>
+        <nav class="col-md-8">
+           <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">For you</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Profiles</a>
+        </li>
+        </ul>
+        </nav>
+    </div>
+            <!-- ez a tetejen levo for you, following de itt mi a following helyett berakjuk a masik oldalt, hogy konnyebb megtalaljuk az oldalt --></nav>
+        <article class="col-md-12">
             <section id="stories"><!-- insta storyk -->
-                <h1>insta stories</h1>
+                <div class="stories_kepek">
+                    <img src="kepek/napoleon.webp" alt="napoleon">
+                    <img src="kepek/newton.jpg" alt="newton">
+                    <img src="kepek/washington.jpg" alt="washington">
+                </div>
             </section>
             <section id="feed"><!-- maga a feed, ezt lehet scrollolni -->
-                <h1>Feed</h1>
 
                 <!-- card -->
                  <div class="poszt container"> 
@@ -62,9 +77,7 @@
                  </div>
             </section>
         </article>
-        <aside id="right"><!-- jobb oldali aside, egyebb infok -->
-            <h1>right</h1>
-        </aside>
+
     </main>
 </body>
 </html>

@@ -62,3 +62,23 @@ body {
      display: inline-flex;
      font-size: small;
 }
+.insta_logo {
+    font-size: 2.5em;
+}
+
+.stories_kepek img {
+    border-radius: 100%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* ezt muszaj volt flexel mert mashogy nem ment. */
+.stories_kepek {
+    gap: 75px;
+    margin-bottom:30px;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    margin: auto;
+}
