@@ -89,17 +89,17 @@ body {
     cursor: pointer;
 }
 
-#washington_story i:hover {
+#washington_story i:hover, #napoleon_story i:hover {
     cursor: pointer;
 }
 
-#washington_story img {
-     max-width: 90%;
+#washington_story img, #napoleon_story img {
+    max-width: 90%;
     max-height: 90%;
     margin-top: 50px;
 }
 
-#washington_story {
+#washington_story,#napoleon_story {
     position: fixed;   
     text-align: center;
     top: 0;
@@ -111,8 +111,10 @@ body {
     z-index: 9999;
 }
 
-#washington_story i {
+#washington_story i, #napoleon_story i {
     font-size: 3em;
     position: absolute;
     right: 5px;
 }
+
+

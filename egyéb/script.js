@@ -42,8 +42,17 @@ function washington() {
     let story = document.getElementById("washington_story")
     story.style.display = "block";
 }
+function napoleon() {
+    let story = document.getElementById("napoleon_story")
+    story.style.display = "block";
+}
 
 function hide_story() {
     let story = document.getElementById("washington_story")
+    story.style.display = "none";
+}
+
+function hide_story_napoleon() {
+    let story = document.getElementById("napoleon_story")
     story.style.display = "none";
 }
