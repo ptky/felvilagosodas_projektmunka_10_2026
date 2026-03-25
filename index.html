@@ -42,8 +42,8 @@
         <article class="col-md-12">
             <section id="stories"><!-- insta storyk -->
                 <div class="stories_kepek">
-                    <img onclick="napoleon()" src="story_kepek/napoleon-bonaparte-jean-louis-ernest-meissonier.jpg" alt="napoleon">
-                    <img onclick="washington()" src="story_kepek/s-l1200.png" alt="washington">
+                    <img onclick="open_story('napoleon_story')" src="story_kepek/napoleon-bonaparte-jean-louis-ernest-meissonier.jpg" alt="napoleon">
+                    <img onclick="open_story('washington_story')" src="story_kepek/s-l1200.png" alt="washington">
                 </div>
             </section>
             <section id="feed"><!-- maga a feed, ezt lehet scrollolni -->
@@ -60,11 +60,11 @@
                                     <img src="szovegek_forrasok/newton.png" alt="newton">
                                     
                                     <div class="d-flex align-items-center gap-2"> 
-                                        <button type="button" onclick="like_add()" id="like" class="btn btn-outline-danger">
+                                        <button type="button" onclick="like_add(1)" id="like" class="btn btn-outline-danger">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                                     <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
                                     </svg>
-                                    <span id="likeCount">17</span>
+                                    <span id="likeCount1">17</span>
                             </button>
                             <i class="bi bi-chat-dots-fill"></i>
                             <i class="megosztas bi bi-share"></i>
@@ -89,7 +89,7 @@
                                     <img src="szovegek_forrasok/washington.png" alt="newton">
                                     
                                     <div class="d-flex align-items-center gap-2"> 
-                                        <button type="button" onclick="like_add2()" id="like" class="btn btn-outline-danger">
+                                        <button type="button" onclick="like_add(2)" id="like" class="btn btn-outline-danger">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                                     <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
                                     </svg>
@@ -118,7 +118,7 @@
                                     <img src="szovegek_forrasok/napoleon.png" alt="newton">
                                     
                                     <div class="d-flex align-items-center gap-2"> 
-                                        <button type="button" onclick="like_add3()" id="like" class="btn btn-outline-danger">
+                                        <button type="button" onclick="like_add(3)" id="like" class="btn btn-outline-danger">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                                     <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
                                     </svg>
@@ -138,12 +138,12 @@
 
         <!-- insta story lathatatlan alapbol -->
         <div id="washington_story">
-            <i onclick="hide_story()" class="bi bi-x-square-fill"></i>
+            <i onclick="close_story('washington_story')" class="bi bi-x-square-fill"></i>
             <img src="story_kepek/washington story.png" alt="storykep">
         </div>
 
         <div id="napoleon_story">
-            <i onclick="hide_story_napoleon()" class="bi bi-x-square-fill"></i>
+            <i onclick="close_story('napoleon_story')" class="bi bi-x-square-fill"></i>
             <img src="story_kepek/asd.png" alt="storykep">
         </div>  
         
