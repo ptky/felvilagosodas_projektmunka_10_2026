@@ -66,7 +66,8 @@ body {
      font-size: small;
 }
 .insta_logo {
-    font-size: 2.5em;
+    font-size: 3.5em;
+
 }
 
 .stories_kepek img {
@@ -78,12 +79,24 @@ body {
 
 /* ezt muszaj volt flexel mert mashogy nem ment. */
 .stories_kepek {
+    margin-top: 20px;
     gap: 75px;
     margin-bottom:30px;
     display: flex;
     justify-content: center;
 
 }
+nav {
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: white;
+}
+
 
 .stories_kepek img:hover {
     cursor: pointer;
@@ -117,4 +130,17 @@ body {
     right: 5px;
 }
 
+.baloldali_menu {
+    position: fixed;
+    font-size: 1.5em;
+    margin-left: 15px;
+    display: grid;
+    gap: 20px;
 
+}
+.alsobb_resz {
+    display: grid;
+    font-size: 1.5em;
+    margin-left: 22px;
+    gap: 20px;
+}
