@@ -1,51 +1,146 @@
- body {
-      margin-right: 10px;
-      border-radius: 8px;
-      color: white;
-      cursor: pointer;
-    }
+body {
+    background: #000000;
+    color: #fbfdff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
 
-    .sztori {
-      margin-top: 30px;
-    }
+}
 
-    .sztorikor {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      border: 2px solid gray;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 30px;
-    }
+.poszt {
+    width: 350px;
+    height: 425px;
+    border: 1px solid white;
+}
 
-    .grid {
-      margin-top: 40px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-    }
+.cimsor {
+    display: inline-flex;
+    font-size: small;
+}
 
-    .poszt {
-      width: 100%;
-      aspect-ratio: 1/1;
-      background-color: #1f1f1f;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: gray;
-      font-size: 14px;
-    }
+.cimsor h2 {
+    margin-top: 12px;
+}
 
-    .stats div {
-      display: inline-block;
-      margin-right: 20px;
-    }
+.cimsor p {
+    margin-left: 3px;
+    margin-top: 20px;
+}
 
-    .pfpkep {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
+.cimsor img {
+    border-radius: 70%;
+    max-width: 50px;
+}
+
+.poszt img {
+    width: 100%;
+}
+
+.btn-outline-danger{
+    border: none;
+}
+
+.megosztas {
+    padding-left: 12px;
+}
+
+.pipa {
+    margin-top: 19px;
+    margin-left: 3px;
+}
+
+.pipa_alul {
+    margin-top: 4px;
+    margin-left: 3px;
+    font-size: 0.75em;
+}
+
+.posztszoveg {
+    font-size: 0.95em;
+    margin-left: 5px;
+}
+
+.cimsor_alul {
+    padding: 5px;
+     margin-top: 0;
+     display: inline-flex;
+     font-size: small;
+}
+.insta_logo {
+    font-size: 3.5em;
+
+}
+
+.stories_kepek img {
+    border-radius: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid red;
+}
+
+/* ezt muszaj volt flexel mert mashogy nem ment. */
+.stories_kepek {
+    margin-top: 20px;
+    gap: 75px;
+    margin-bottom:30px;
+    display: flex;
+    justify-content: center;
+
+}
+nav {
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: white;
+}
+
+
+.stories_kepek img:hover {
+    cursor: pointer;
+}
+
+#washington_story i:hover, #napoleon_story i:hover {
+    cursor: pointer;
+}
+
+#washington_story img, #napoleon_story img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 50px;
+}
+
+#washington_story,#napoleon_story {
+    position: fixed;   
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9); 
+    display: none; 
+    z-index: 9999;
+}
+
+#washington_story i, #napoleon_story i {
+    font-size: 3em;
+    position: absolute;
+    right: 5px;
+}
+
+.baloldali_menu {
+    position: fixed;
+    font-size: 1.5em;
+    margin-left: 15px;
+    display: grid;
+    gap: 20px;
+
+}
+.alsobb_resz {
+    display: grid;
+    font-size: 1.5em;
+    margin-left: 22px;
+    gap: 20px;
+}
