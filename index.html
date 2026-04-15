@@ -19,9 +19,7 @@
 
 </head>
 <body>
-    <main class="container">
-    <div class="row">
-        <aside id="left" class="col-md-2">
+    <aside id="left">
             
             <div class="baloldali_menu">
             <i class="insta_logo bi bi-instagram"></i>
@@ -35,7 +33,9 @@
             </div>
             <!-- ebbe lesz a bal oldali menurendszer -->
         </aside>
-        <nav class="col-md-8 ">
+    <main>
+    <div class="row">
+        <nav class="">
            <ul class="nav nav-tabs justify-content-center ">
         <li class="nav-item">
             <a class="nav-link active" href="#">For you</a>
@@ -47,9 +47,9 @@
         </nav>
     </div>
 
-    <div class="col-md-2"></div>
+    <div id="kozepe">
             <!-- ez a tetejen levo for you, following de itt mi a following helyett berakjuk a masik oldalt, hogy konnyebb megtalaljuk az oldalt --></nav>
-        <article class="col-md-12">
+        <article>
             <section id="stories"><!-- insta storyk -->
                 <div class="stories_kepek">
                     <img onclick="open_story('napoleon_story')" src="story_kepek/$n2.jpg" alt="napoleon">
@@ -145,6 +145,7 @@
                                 </div>
             </section>
         </article>
+        
 
         <!-- insta story lathatatlan alapbol -->
         <div id="washington_story">

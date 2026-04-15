@@ -6,6 +6,11 @@ body {
 
 }
 
+main {
+    margin-left: 150px;
+    max-width: 800px;
+}
+
 .poszt {
     width: 350px;
     height: 425px;
@@ -88,6 +93,8 @@ body {
 }
 nav {
     padding: 10px;
+    margin-left:130px;
+    margin-right:130px;
 }
 
 .nav-link {
@@ -132,8 +139,9 @@ nav {
 
 .baloldali_menu {
     position: fixed;
+    left:0;
     font-size: 1.5em;
-    margin-left: 15px;
+    margin-left: 30px;
     display: grid;
     gap: 20px;
 
@@ -143,4 +151,45 @@ nav {
     font-size: 1.5em;
     margin-left: 22px;
     gap: 20px;
+
+}
+
+
+
+
+@media screen and (max-width:775px) {
+    .baloldali_menu {
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+    .alsobb_resz {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px;
+        align-items: center;
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .alsobb_resz {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .poszt {
+        height: 425px;
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .alsobb_resz {
+        grid-template-columns: 1fr 1fr ;
+    }
+    .poszt {
+        height: 425px;
+        width: 250px;
+    }
+    #washington_story i, #napoleon_story i {
+        font-size: 2em;
+    }
+    
 }
