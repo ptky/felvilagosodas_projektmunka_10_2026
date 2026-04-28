@@ -11,8 +11,47 @@ main {
     max-width: 800px;
 }
 
+nav {
+    border-bottom: solid 2px white;
+    text-align: center;
+    padding: 10px;
+}
+
+li {
 
 
+  align-self: center;
+  background-color: #fff;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 23px;
+  padding: .75rem;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    gap: 30px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
 .poszt {
     width: 350px;
     height: 425px;
@@ -92,18 +131,6 @@ main {
     display: flex;
     justify-content: center;
 
-}
-nav {
-    padding: 10px;
-    margin-left:130px;
-    margin-right:130px;
-}
-
-.nav-link {
-    color: white;
-}
-.nav-link:hover {
-    color: white;
 }
 
 
