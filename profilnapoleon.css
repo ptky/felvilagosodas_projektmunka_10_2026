@@ -3,11 +3,48 @@ body {
     color: #fbfdff;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
-    margin-right: 10px;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav {
+    border-bottom: solid 2px white;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    gap: 30px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    align-self: center;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 23px;
+    padding: .75rem;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
 .insta_logo {
     font-size: 3.5em;
@@ -15,8 +52,9 @@ body {
 
 .baloldali_menu {
     position: fixed;
+    left: 0;
     font-size: 1.5em;
-    margin-left: 15px;
+    margin-left: 30px;
     display: grid;
     gap: 20px;
 }
@@ -28,39 +66,74 @@ body {
     gap: 20px;
 }
 
-nav {
-    padding: 10px;
-}
-
-.nav-link {
-    color: white;
-}
-
-.nav-link:hover {
-    color: white;
-}
-
 .pfp_kep img {
-    width: 100%;
+    border-radius: 70%;
+    max-width: 100px;
+    margin-top: 50px;
+}
+
+#feed {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.poszt {
+    width: 350px;
+    height: 425px;
+    border: 1px solid white;
+}
+
+.cimsor {
+    display: inline-flex;
+    font-size: small;
+}
+
+.cimsor h2 {
+    margin-top: 12px;
+}
+
+.cimsor p {
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+.cimsor img {
     border-radius: 70%;
     max-width: 50px;
 }
 
 .poszt img {
-    max-width: 100px;
-    margin-left: 40px;
+    width: 100%;
 }
 
-
-.grid {
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    position: fixed;
+.btn-outline-danger{
+    border: none;
 }
 
-
-section {
-    margin: auto;
+.megosztas {
+    padding-left: 12px;
 }
+
+.pipa {
+    margin-top: 19px;
+    margin-left: 3px;
+}
+
+.pipa_alul {
+    margin-top: 4px;
+    margin-left: 3px;
+    font-size: 0.75em;
+}
+
+.posztszoveg {
+    font-size: 0.95em;
+    margin-left: 5px;
+}
+
+.cimsor_alul {
+    padding: 5px;
+     margin-top: 0;
+     display: inline-flex;
+     font-size: small;}

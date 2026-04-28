@@ -1,5 +1,3 @@
-<!-- feed - gorgetheto oldal -->
-
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -16,93 +14,178 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <script src="egyéb/script.js"></script>
     <link rel="stylesheet" href="profilnapoleon.css">
-
 </head>
 <body>
-    <main class="container">
-    <div class="row">
-        <aside id="left" class="col-md-2">
-            
-            <div class="baloldali_menu">
+    <aside id="left">
+        <div class="baloldali_menu">
             <i class="insta_logo bi bi-instagram"></i>
             <div class="alsobb_resz">
-            <i class="bi bi-camera-reels"></i>
-            <i class="bi bi-chat-text"></i>
-            <i class="bi bi-search"></i>
-            <i class="bi bi-compass"></i>
-            <i class="bi bi-person-circle"></i>
+                <i class="bi bi-camera-reels"></i>
+                <i class="bi bi-chat-text"></i>
+                <i class="bi bi-search"></i>
+                <i class="bi bi-compass"></i>
+                <i class="bi bi-person-circle"></i>
             </div>
-            </div>
-            <!-- ebbe lesz a bal oldali menurendszer -->
-        </aside>
-        <nav class="col-md-8 ">
-           <ul class="nav nav-tabs justify-content-center ">
-        <li class="nav-item">
-            <a class="nav-link active" href="index.html">For you</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Profilok</a>
-        </li>
-        </ul>
+        </div>
+    </aside>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">For you</a></li>
+                <li><a href="profilgeorge.html">George Washington</a></li>
+                <li><a href="#">Napoleon Bonaparte</a></li>
+            </ul>
         </nav>
-    </div>
-  
 
-    <div class="col-md-2"></div>
-    
-            <section id="feed">
-              
-               <div class="container col-md-4">
-                <section id="stories"><!-- insta storyk -->
-                <div class="pfp_kep">
-                  <img src="kepek/$n3.jpg" alt="bonaperte">
+            <div class="pfp_kep">
+                <img src="kepek/$n3.jpg" alt="bonaparte">
+            </div>
+
+            <div class="pfp-info">
+                <h2>napoleon_bonaparte</h2>
                 </div>
+                <div class="stats">
+                    <div><b>4</b> bejegyzés</div>
+                    <div><b>300</b> követő</div>
+                    <div><b>12</b> követés</div>
+                
+            </div>
+
+
+            <section id="feed">
+              <div class="poszt container mt-5"> 
+                                    
+                                    <div class="cimsor">
+                                        <img src="kepek/$n3.jpg" alt="Napoleon">
+                                    <h2 class="h4">Napoleon</h2>
+                                    <i class="pipa bi bi-patch-check-fill"></i>
+                                        <p>•2 hours ago</p>
+                                    </div>
+                                    <img src="napoleonbonaparte/xl_6780fb194163-napoleon.jpg" alt="Nincs kep">
+                                    
+                                    <div class="d-flex align-items-center gap-2"> 
+                                        <button type="button" onclick="" id="like" class="btn btn-outline-danger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
+                                    </svg>
+                                    <span id="likeCount1">8</span>
+                            </button>
+                            <i class="bi bi-chat-dots-fill"></i>
+                            <i class="megosztas bi bi-share"></i>
+                            </div>
+                            <div class="cimsor_alul">
+                                    <p>Napoleon</p>
+                                    <i class="pipa_alul bi bi-patch-check-fill"></i>
+                                    <p class="posztszoveg">A dicsőség múlandó, de a kudarc örök.</p>
+
+
+                                    </div>
+                                    
+                                </div>
+
+
+
+                                <!--  -->
+
+
+
+                                <div class="poszt container mt-5"> 
+                                    
+                                    <div class="cimsor">
+                                        <img src="kepek/$n3.jpg" alt="Napoleon">
+                                    <h2 class="h4">Napoleon</h2>
+                                    <i class="pipa bi bi-patch-check-fill"></i>
+                                        <p>•42 hours ago</p>
+                                    </div>
+                                    <img src="napoleonbonaparte/G70043-04-1-e1422279435332-700x500.jpg" alt="Nincs kep">
+                                    
+                                    <div class="d-flex align-items-center gap-2"> 
+                                        <button type="button" onclick="" id="like" class="btn btn-outline-danger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
+                                    </svg>
+                                    <span id="likeCount1">16</span>
+                            </button>
+                            <i class="bi bi-chat-dots-fill"></i>
+                            <i class="megosztas bi bi-share"></i>
+                            </div>
+                            <div class="cimsor_alul">
+                                    <p>Napoleon</p>
+                                    <i class="pipa_alul bi bi-patch-check-fill"></i>
+                                    <p class="posztszoveg">Nem királynak születtem… azzá váltam.👑</p>
+
+
+                                    </div>
+                                    
+                                </div>
+
+
+
+<!--  -->
+                                <div class="poszt container mt-5"> 
+                                    
+                                    <div class="cimsor">
+                                        <img src="kepek/$n3.jpg" alt="Napoleon">
+                                    <h2 class="h4">Napoleon</h2>
+                                    <i class="pipa bi bi-patch-check-fill"></i>
+                                        <p>•7 days ago</p>
+                                    </div>
+                                    <img src="napoleonbonaparte/Blog_ICH_NapoleonBonaparte_1223.jpg" alt="Nincs kep">
+                                    
+                                    <div class="d-flex align-items-center gap-2"> 
+                                        <button type="button" onclick="" id="like" class="btn btn-outline-danger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
+                                    </svg>
+                                    <span id="likeCount1">45</span>
+                            </button>
+                            <i class="bi bi-chat-dots-fill"></i>
+                            <i class="megosztas bi bi-share"></i>
+                            </div>
+                            <div class="cimsor_alul">
+                                    <p>Napoleon</p>
+                                    <i class="pipa_alul bi bi-patch-check-fill"></i>
+                                    <p class="posztszoveg">A győzelem a bátoraké. A stratégia mindenek felett.⚔️</p>
+
+
+                                    </div>
+                                    
+                                </div>
+
+                                 <div class="poszt container mt-5"> 
+                                    
+                                    <div class="cimsor">
+                                        <img src="kepek/$n3.jpg" alt="Napoleon">
+                                    <h2 class="h4">Napoleon</h2>
+                                    <i class="pipa bi bi-patch-check-fill"></i>
+                                        <p>•16 days ago</p>
+                                    </div>
+                                    <img src="napoleonbonaparte/Napoleon_death-Charles_von_Steuben-IMG_1512.jpg" alt="Nincs kep">
+                                    
+                                    <div class="d-flex align-items-center gap-2"> 
+                                        <button type="button" onclick="" id="like" class="btn btn-outline-danger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
+                                    </svg>
+                                    <span id="likeCount1">51</span>
+                            </button>
+                            <i class="bi bi-chat-dots-fill"></i>
+                            <i class="megosztas bi bi-share"></i>
+                            </div>
+                            <div class="cimsor_alul">
+                                    <p>Napoleon</p>
+                                    <i class="pipa_alul bi bi-patch-check-fill"></i>
+                                    <p class="posztszoveg">A bukás is a történetem része… de a nevem örökké fennmarad.</p>
+
+
+                                    </div>
+                                    
+                                </div>
+
+                                
             </section>
-
-    
-
-    <div class="pfp-info">
-      <h2>napoleon_bonaparte</h2>
-
-      <div class="stats">
-        <div><b>3</b> bejegyzés</div>
-        <div><b>265</b> követő</div>
-        <div><b>65</b> követés</div>
-      </div>
-
-      <div>Napoleon Bonaparte⚔️🏛️</div>
-
-      <div class="buttons">
-        <button class="btn">Profil módosítása</button>
-        <button class="btn">Archívum megtekintése</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="sztori">
-    <div class="sztorikor">+</div>
-    <div>Új</div>
-  </div>
-
-  <div class="grid">
-    <div class="poszt">
-      <img src="" alt="Nincs kep">
-      <p>Nem királlyá születtem… azzá váltam.👑</p>
-    </div>
-    <div class="poszt">
-      <img src="" alt="Nincs kep">
-      <p>A győzelem a bátoraké. A stratégia mindenek felett.⚔️</p>
-    </div>
-    <div class="poszt">
-      <img src="" alt="Nincs kep">
-      <p>A bukás is a történetem része… de a nevem örökké fennmarad.<p>
-    </div>
-  </div>
-
-</div>
-            </section>
-        </article>
-        
+            </div>
+        </section>
     </main>
 </body>
 </html>
