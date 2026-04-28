@@ -1,5 +1,3 @@
-<!-- feed - gorgetheto oldal -->
-
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -15,94 +13,64 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <script src="egyéb/script.js"></script>
-    <link rel="stylesheet" href="profilgeorge.css">
-
+    <link rel="stylesheet" href="egyéb/main.css">
 </head>
 <body>
-    <main class="container">
-    <div class="row">
-        <aside id="left" class="col-md-2">
-            
-            <div class="baloldali_menu">
+    <aside id="left">
+        <div class="baloldali_menu">
             <i class="insta_logo bi bi-instagram"></i>
             <div class="alsobb_resz">
-            <i class="bi bi-camera-reels"></i>
-            <i class="bi bi-chat-text"></i>
-            <i class="bi bi-search"></i>
-            <i class="bi bi-compass"></i>
-            <i class="bi bi-person-circle"></i>
+                <i class="bi bi-camera-reels"></i>
+                <i class="bi bi-chat-text"></i>
+                <i class="bi bi-search"></i>
+                <i class="bi bi-compass"></i>
+                <i class="bi bi-person-circle"></i>
             </div>
-            </div>
-            <!-- ebbe lesz a bal oldali menurendszer -->
-        </aside>
-        <nav class="col-md-8 ">
-           <ul class="nav nav-tabs justify-content-center ">
-        <li class="nav-item">
-            <a class="nav-link active" href="index.html">For you</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Profilok</a>
-        </li>
-        </ul>
+        </div>
+    </aside>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">For you</a></li>
+                <li><a href="#">Profilok</a></li>
+            </ul>
         </nav>
-    </div>
-  
 
-    <div class="col-md-2"></div>
-    
-            <section id="feed">
-              
-               <div class="container col-md-4">
-                <section id="stories"><!-- insta storyk -->
-                <div class="pfp_kep">
-                  <img src="story_kepek/$n4.jpg" alt="washington">
+        <section id="feed">
+            <div class="pfp_kep">
+                <img src="story_kepek/$n4.jpg" alt="washington">
+            </div>
+
+            <div class="pfp-info">
+                <h2>george_washington</h2>
+                <div class="stats">
+                    <div><b>3</b> bejegyzés</div>
+                    <div><b>193</b> követő</div>
+                    <div><b>42</b> követés</div>
                 </div>
-            </section>
+                <div>George Washington🐎🌾</div>
+            </div>
 
-    
+            <div class="sztori">
+                <div class="sztorikor">+</div>
+                <div>Új</div>
+            </div>
 
-    <div class="pfp-info">
-      <h2>george_washington</h2>
-
-      <div class="stats">
-        <div><b>3</b> bejegyzés</div>
-        <div><b>193</b> követő</div>
-        <div><b>42</b> követés</div>
-      </div>
-
-      <div>George Washington🐎🌾</div>
-
-      <div class="buttons">
-        <button class="btn">Profil módosítása</button>
-        <button class="btn">Archívum megtekintése</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="sztori">
-    <div class="sztorikor">+</div>
-    <div>Új</div>
-  </div>
-
-  <div class="grid">
-    <div class="poszt">
-      <img src="georgewashington/$n01.jpg" alt="Nincs kep">
-      <p>Nehéz tél volt, de nem adjuk fel. A szabadságért harcolunk!</p>
-    </div>
-    <div class="poszt">
-      <img src="georgewashington/$n04.jpg" alt="Nincs kep">
-      <p>Otthon, ahol igazán önmagam lehetek.🐎🌾</p>
-    </div>
-    <div class="poszt">
-      <img src="georgewashington/$n03.jpg" alt="Nincs kep">
-      <p>1799-ben egy korszak ért véget. Egy vezető, aki nem a hatalmat, hanem a szabadságot választotta.<p>
-    </div>
-  </div>
-
-</div>
-            </section>
-        </article>
-        
+            <div class="grid">
+                <div class="poszt">
+                    <img src="georgewashington/$n01.jpg" alt="Nincs kep">
+                    <p>Nehéz tél volt, de nem adjuk fel. A szabadságért harcolunk!</p>
+                </div>
+                <div class="poszt">
+                    <img src="georgewashington/$n04.jpg" alt="Nincs kep">
+                    <p>Otthon, ahol igazán önmagam lehetek.🐎🌾</p>
+                </div>
+                <div class="poszt">
+                    <img src="georgewashington/$n03.jpg" alt="Nincs kep">
+                    <p>1799-ben egy korszak ért véget. Egy vezető, aki nem a hatalmat, hanem a szabadságot választotta.</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

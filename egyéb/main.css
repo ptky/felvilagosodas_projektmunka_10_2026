@@ -207,6 +207,10 @@ ul {
         height: 425px;
         width: 300px;
     }
+    ul {
+        grid-template-columns: 1fr;
+    }
+
     
 }
 @media screen and (max-width:320px) {
