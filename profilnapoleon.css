@@ -137,3 +137,60 @@ nav a {
      margin-top: 0;
      display: inline-flex;
      font-size: small;}
+
+@media screen and (max-width:1000px) {
+    .baloldali_menu {
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+    .alsobb_resz {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px;
+        align-items: center;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width:760px) {
+    #feed {
+        grid-template-columns: 1fr;
+    }
+    .pfp_kep {
+        text-align: center;
+    }
+    .pfp-info {
+        text-align: center;
+    }
+    .info {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .alsobb_resz {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .poszt {
+        height: 425px;
+        width: 300px;
+    }
+    ul {
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+@media screen and (max-width:320px) {
+    .alsobb_resz {
+        grid-template-columns: 1fr 1fr ;
+    }
+    .poszt {
+        height: 425px;
+        width: 250px;
+    }
+    #washington_story i, #napoleon_story i {
+        font-size: 2em;
+    }
+    
+}
