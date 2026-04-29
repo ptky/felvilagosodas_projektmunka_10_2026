@@ -53,9 +53,8 @@ ul {
     padding: 0;
 }
 .poszt {
-    width: 350px;
-    height: 425px;
     border: 1px solid white;
+    max-width: 400px;
 }
 
 .cimsor {
@@ -74,7 +73,8 @@ ul {
 
 .cimsor img {
     border-radius: 70%;
-    max-width: 50px;
+    max-width:50px;
+    max-height: 50px;
 }
 
 .poszt img {
@@ -203,10 +203,6 @@ ul {
     .alsobb_resz {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .poszt {
-        height: 425px;
-        width: 300px;
-    }
     ul {
         grid-template-columns: 1fr;
     }
@@ -216,10 +212,6 @@ ul {
 @media screen and (max-width:320px) {
     .alsobb_resz {
         grid-template-columns: 1fr 1fr ;
-    }
-    .poszt {
-        height: 425px;
-        width: 250px;
     }
     #washington_story i, #napoleon_story i {
         font-size: 2em;
